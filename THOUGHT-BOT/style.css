@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: #111 solid 1px;
+  }
+  body{
+    margin: 0%;
+    background-color: #333 !important;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+#help {
+    background-color: blue;
+  }
+  footer {
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-section {
+    margin-bottom: 10px;
+}
